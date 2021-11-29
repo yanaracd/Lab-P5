@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container{
+    width: 70%;
+    margin: 0px auto; 
+    border: 1px solid black;
+
+}
+
+header{
+    background: rgb(49, 49, 49);
+    height: 125px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+nav{
+    background: rgb(49, 49, 49);
+    height: 75px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(100% - 20px);
+    min-height: 1000px;
+    background: whitesmoke;
+    padding: 10px;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+    text-align: justify;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px dashed black;
+}
+
+.article h3{
+    font-size: 25px;
+}
+
+#func{
+    width: 400px;
+    height: 200px;
+  }
+
+footer{
+    background: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button {
+    background-color: rgb(209, 66, 14);
+    border-radius: 12px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16.3px;
+  }
+
+  .button:hover {background-color: #666}
+
+  .button:active {
+      background-color: #666;
+      box-shadow: #666;
+      transform: translateY(4px);
+    }
+
+    table{
+      width: 98%;
+    }
+
+    #icon{
+      width: 60px;
+      height: 60px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #mapa{
+        width: 400px;
+        height: auto;
+    }
+
+    #listo{
+        width: auto;
+        height: 12px;
+    }
+
